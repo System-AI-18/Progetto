@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Client",
+    "\\Client\\ApiService",
+    "\\Client\\bin",
+    "\\Client\\bin\\Debug",
+    "\\Client\\bin\\Release"
+  ],
+  "SelectedNode": "\\Client\\ApiService\\ApiService.cs",
+  "PreviewInSolutionExplorer": false
+}
