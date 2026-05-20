@@ -1,10 +1,24 @@
 namespace Client
 {
-    public partial class Form1 : Form
+    public partial class FormLogin : Form
     {
-        public Form1()
+        public FormLogin()
         {
             InitializeComponent();
+        }
+
+        private void tBoxName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void tBoxCognome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
