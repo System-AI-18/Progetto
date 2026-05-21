@@ -34,7 +34,8 @@ namespace Client
                 {
                     this.Hide();
 
-                    await profilo.ShowAsync();
+                    await profilo.ShowDialogAsync();
+                    this.Close();
                 }
 
 

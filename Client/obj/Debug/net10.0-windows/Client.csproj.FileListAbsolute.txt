@@ -3,7 +3,6 @@ C:\Users\Atomic\Documents\Progetto\Client\bin\Debug\net10.0-windows\Client.deps.
 C:\Users\Atomic\Documents\Progetto\Client\bin\Debug\net10.0-windows\Client.runtimeconfig.json
 C:\Users\Atomic\Documents\Progetto\Client\bin\Debug\net10.0-windows\Client.dll
 C:\Users\Atomic\Documents\Progetto\Client\bin\Debug\net10.0-windows\Client.pdb
-C:\Users\Atomic\Documents\Progetto\Client\obj\Debug\net10.0-windows\Client.Form1.resources
 C:\Users\Atomic\Documents\Progetto\Client\obj\Debug\net10.0-windows\Client.FormLogin.resources
 C:\Users\Atomic\Documents\Progetto\Client\obj\Debug\net10.0-windows\Client.FormProfilo.resources
 C:\Users\Atomic\Documents\Progetto\Client\obj\Debug\net10.0-windows\Client.csproj.GenerateResource.cache

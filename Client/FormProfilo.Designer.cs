@@ -92,6 +92,7 @@
             Controls.Add(label1);
             Name = "FormProfilo";
             Text = "FormProfilo";
+            FormClosed += FormProfilo_FormClosed;
             Shown += FormProfilo_Shown;
             ResumeLayout(false);
             PerformLayout();

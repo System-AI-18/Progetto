@@ -4,6 +4,7 @@ namespace Client
 {
     public partial class FormProfilo : Form
     {
+        // FormLogin login = new();
         public FormProfilo()
         {
             InitializeComponent();
@@ -24,6 +25,12 @@ namespace Client
         private async void lblTesto1_Click(object sender, EventArgs e)
         {
 
+        }
+
+
+        private void FormProfilo_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            //  login.Show();
         }
     }
 }
