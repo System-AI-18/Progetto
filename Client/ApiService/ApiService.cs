@@ -4,14 +4,14 @@ using System.Text.Json;
 
 namespace Client.ApiService
 {
-    internal class ApiService
+    public class ApiService
     {
         private static HttpClient sharedClient = new HttpClient()
         {
             BaseAddress = new Uri("http://192.168.1.50/api/"),
         };
 
-        static async Task LoginAsync(string nome, string cognome)
+        public static async Task LoginAsync(string nome, string cognome)
         {
             using StringContent stringContent = new(JsonSerializer.Serialize(new { Nome = nome, Cognome = cognome }), Encoding.UTF8, "application/json");
 
@@ -19,55 +19,69 @@ namespace Client.ApiService
 
             var jsonResponse = await response.Content.ReadAsStringAsync();
 
-            LoginResponse? user = JsonSerializer.Deserialize<LoginResponse>(jsonResponse);
+            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+            LoginResponse? user = JsonSerializer.Deserialize<LoginResponse>(jsonResponse, options);
 
-            if (!user.Success || user is null) { return; }
+            if (user is null || !user.Success) { return; }
 
             else
             {
                 Sessione.ruolo = user.Utente.Ruolo;
                 Sessione.token = user.Token;
+                Sessione.nome = user.Utente.Nome;
+                Sessione.cognome = user.Utente.Cognome;
+
 
                 sharedClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", user.Token);
+
+                Console.WriteLine("Hello");
             }
 
         }
-        static async Task GetUtenteAsync(int? id)
+        public static async Task<Utente?> GetUtenteAsync(int? id)
         {
             using HttpResponseMessage response = await sharedClient.GetAsync($"utente/get.php?id={id}");
 
             response.EnsureSuccessStatusCode().WriteRequestToConsole();
 
             var jsonResponse = await response.Content.ReadAsStringAsync();
-            Console.WriteLine($"{jsonResponse}\n");
-        }
 
-        static async Task CreateUtenteAsync(Utente? utente)
-        {
-            using StringContent stringContent = new(JsonSerializer.Serialize(utente), Encoding.UTF8, "application/json");
 
-            using HttpResponseMessage response = await sharedClient.PostAsync("utente/create.php", stringContent);
-
-            response.EnsureSuccessStatusCode().WriteRequestToConsole();
-
-            var jsonResponse = await response.Content.ReadAsStringAsync();
+            ResponseUtente? utente = JsonSerializer.Deserialize<ResponseUtente?>(jsonResponse);
 
             Console.WriteLine($"{jsonResponse}\n");
 
+            if (utente is null || !utente.Success) { return null; }
+
+            return utente.Utente;
         }
 
-        static async Task UpdateUtenteAsync(Utente? utente)
-        {
-            using StringContent stringContent = new(JsonSerializer.Serialize(utente), Encoding.UTF8, "application/json");
+        //static async Task CreateUtenteAsync(Utente? utente)
+        //{
+        //    using StringContent stringContent = new(JsonSerializer.Serialize(utente), Encoding.UTF8, "application/json");
 
-            using HttpResponseMessage response = await sharedClient.PutAsync("utente/update.php", stringContent);
+        //    using HttpResponseMessage response = await sharedClient.PostAsync("utente/create.php", stringContent);
 
-            response.EnsureSuccessStatusCode().WriteRequestToConsole();
+        //    response.EnsureSuccessStatusCode().WriteRequestToConsole();
 
-            var jsonResponse = await response.Content.ReadAsStringAsync();
+        //    var jsonResponse = await response.Content.ReadAsStringAsync();
 
-            Console.WriteLine($"{jsonResponse}\n");
-        }
+        //    Console.WriteLine($"{jsonResponse}\n");
+
+        //}
+
+        //static async Task UpdateUtenteAsync(Utente? utente)
+        //{
+        //    using StringContent stringContent = new(JsonSerializer.Serialize(utente), Encoding.UTF8, "application/json");
+
+        //    using HttpResponseMessage response = await sharedClient.PutAsync("utente/update.php", stringContent);
+
+        //    response.EnsureSuccessStatusCode().WriteRequestToConsole();
+
+        //    var jsonResponse = await response.Content.ReadAsStringAsync();
+
+        //    Console.WriteLine($"{jsonResponse}\n");
+        //}
 
     }
 

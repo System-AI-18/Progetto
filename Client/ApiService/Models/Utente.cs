@@ -4,8 +4,9 @@
     string? Nome = null,
     string? Cognome = null,
     string? Ruolo = null,
-    string? Città = null,
+    string? Citta = null,
     string? Sesso = null,
     DateOnly? DataNascita = null,
-    int? Client_IdClient = null
+    int? Client_IdClient = null,
+    decimal? SaldoWallet = null
 );
