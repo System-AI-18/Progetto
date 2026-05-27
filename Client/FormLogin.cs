@@ -25,6 +25,7 @@ namespace Client
             {
 
                 await ApiService.ApiService.LoginAsync(tBoxName.Text, tBoxCognome.Text);
+
                 if (Sessione.token is null)
                 {
                     MessageBox.Show("credenziali non valide");

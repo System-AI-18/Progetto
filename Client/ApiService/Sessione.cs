@@ -7,7 +7,5 @@
         public static string? nome;
         public static string? cognome;
         public static int? idUtente;
-
-
     }
 }
