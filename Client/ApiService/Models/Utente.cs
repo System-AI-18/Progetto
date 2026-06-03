@@ -8,5 +8,5 @@
     string? Sesso = null,
     DateOnly? DataNascita = null,
     int? Client_IdClient = null,
-    decimal? SaldoWallet = null
+    int? SaldoWallet = null
 );

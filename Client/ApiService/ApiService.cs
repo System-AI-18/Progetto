@@ -56,6 +56,41 @@ namespace Client.ApiService
             return utente.Utente;
         }
 
+        public static async Task<int?> GetSaldoAsync()
+        {
+            using HttpResponseMessage response = await sharedClient.GetAsync($"wallet/saldo.php");
+            response.EnsureSuccessStatusCode().WriteRequestToConsole();
+
+            var jsonResponse = await response.Content.ReadAsStringAsync();
+
+            ResponseUtente? utenteSaldo = JsonSerializer.Deserialize<ResponseUtente>(jsonResponse);
+
+            if (utenteSaldo is null || !utenteSaldo.Success) { return null; }
+
+            return utenteSaldo.Utente.SaldoWallet;
+
+
+        }
+
+        public static async Task InviaSaldoAsync(Wallet? saldo)
+        {
+
+            using StringContent stringContent = new(JsonSerializer.Serialize(saldo), Encoding.UTF8, "application/json");
+
+            using HttpResponseMessage response = await sharedClient.PostAsync("wallet/invia.php", stringContent);
+
+            response.EnsureSuccessStatusCode().WriteRequestToConsole();
+
+            var jsonResponse = await response.Content.ReadAsStringAsync();
+
+            Wallet? utenteSaldo = JsonSerializer.Deserialize<Wallet>(jsonResponse);
+
+
+
+        }
+
+
+
         //static async Task CreateUtenteAsync(Utente? utente)
         //{
         //    using StringContent stringContent = new(JsonSerializer.Serialize(utente), Encoding.UTF8, "application/json");

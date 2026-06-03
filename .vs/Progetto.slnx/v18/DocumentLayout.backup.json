@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Atomic\\Documents\\Progetto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|C:\\Users\\Atomic\\Documents\\Progetto\\client\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|c:\\users\\atomic\\documents\\progetto\\client\\apiservice\\models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\apiservice\\models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|c:\\users\\atomic\\documents\\progetto\\client\\apiservice\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\apiservice\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|c:\\users\\atomic\\documents\\progetto\\client\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|c:\\users\\atomic\\documents\\progetto\\client\\apiservice\\models\\responseutente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\apiservice\\models\\responseutente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|c:\\users\\atomic\\documents\\progetto\\client\\apiservice\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\apiservice\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|c:\\users\\atomic\\documents\\progetto\\client\\apiservice\\models\\comunica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\apiservice\\models\\comunica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|c:\\users\\atomic\\documents\\progetto\\client\\apiservice\\sessione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,28 +35,20 @@
       "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\apiservice\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|c:\\users\\atomic\\documents\\progetto\\client\\apiservice\\models\\responseutente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\apiservice\\models\\responseutente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|C:\\Users\\Atomic\\Documents\\Progetto\\client\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|C:\\Users\\Atomic\\Documents\\Progetto\\client\\formprofilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\formprofilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|c:\\users\\atomic\\documents\\progetto\\client\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|c:\\users\\atomic\\documents\\progetto\\client\\formprofilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\formprofilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|c:\\users\\atomic\\documents\\progetto\\client\\apiservice\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\apiservice\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|c:\\users\\atomic\\documents\\progetto\\client\\apiservice\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\apiservice\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|c:\\users\\atomic\\documents\\progetto\\client\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|C:\\Users\\Atomic\\Documents\\Progetto\\client\\formprofilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|solutionrelative:client\\formprofilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|Client\\Client.csproj|c:\\users\\atomic\\documents\\progetto\\client\\formprofilo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,8 +62,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 340,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Wallet.cs",
+              "DocumentMoniker": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\ApiService\\Models\\Wallet.cs",
+              "RelativeDocumentMoniker": "Client\\ApiService\\Models\\Wallet.cs",
+              "ToolTip": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\ApiService\\Models\\Wallet.cs",
+              "RelativeToolTip": "Client\\ApiService\\Models\\Wallet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T08:28:21.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Comunica.cs",
+              "DocumentMoniker": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\ApiService\\Models\\Comunica.cs",
+              "RelativeDocumentMoniker": "Client\\ApiService\\Models\\Comunica.cs",
+              "ToolTip": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\ApiService\\Models\\Comunica.cs",
+              "RelativeToolTip": "Client\\ApiService\\Models\\Comunica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T08:28:02.815Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 9,
@@ -66,12 +100,11 @@
               "RelativeToolTip": "Client\\FormLogin.Designer.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T09:44:10.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T09:44:10.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "FormProfilo.cs",
               "DocumentMoniker": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\FormProfilo.cs",
               "RelativeDocumentMoniker": "Client\\FormProfilo.cs",
@@ -84,19 +117,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "FormProfilo.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\FormProfilo.cs",
               "RelativeDocumentMoniker": "Client\\FormProfilo.cs",
               "ToolTip": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\FormProfilo.cs [Progettazione]",
               "RelativeToolTip": "Client\\FormProfilo.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T08:39:31.817Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2026-05-21T08:39:31.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Sessione.cs",
               "DocumentMoniker": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\ApiService\\Sessione.cs",
               "RelativeDocumentMoniker": "Client\\ApiService\\Sessione.cs",
@@ -109,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FormLogin.cs",
               "DocumentMoniker": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\FormLogin.cs",
               "RelativeDocumentMoniker": "Client\\FormLogin.cs",
@@ -122,19 +154,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "FormLogin.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\FormLogin.cs",
               "RelativeDocumentMoniker": "Client\\FormLogin.cs",
               "ToolTip": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\FormLogin.cs [Progettazione]",
               "RelativeToolTip": "Client\\FormLogin.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T08:18:26.013Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2026-05-21T08:18:26.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "FormProfilo.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\FormProfilo.Designer.cs",
               "RelativeDocumentMoniker": "Client\\FormProfilo.Designer.cs",
@@ -142,25 +173,24 @@
               "RelativeToolTip": "Client\\FormProfilo.Designer.cs",
               "ViewState": "AgIAAEAAAAAABAAAAAAOwF4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T08:03:53.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T08:03:53.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ResponseUtente.cs",
               "DocumentMoniker": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\ApiService\\Models\\ResponseUtente.cs",
               "RelativeDocumentMoniker": "Client\\ApiService\\Models\\ResponseUtente.cs",
               "ToolTip": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\ApiService\\Models\\ResponseUtente.cs",
               "RelativeToolTip": "Client\\ApiService\\Models\\ResponseUtente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T16:28:15.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\ApiService\\Models\\LoginResponse.cs",
               "RelativeDocumentMoniker": "Client\\ApiService\\Models\\LoginResponse.cs",
@@ -168,31 +198,30 @@
               "RelativeToolTip": "Client\\ApiService\\Models\\LoginResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T09:56:46.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T09:56:46.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Utente.cs",
               "DocumentMoniker": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\ApiService\\Models\\Utente.cs",
               "RelativeDocumentMoniker": "Client\\ApiService\\Models\\Utente.cs",
               "ToolTip": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\ApiService\\Models\\Utente.cs",
               "RelativeToolTip": "Client\\ApiService\\Models\\Utente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T09:32:27.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "ApiService.cs",
               "DocumentMoniker": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\ApiService\\ApiService.cs",
               "RelativeDocumentMoniker": "Client\\ApiService\\ApiService.cs",
               "ToolTip": "C:\\Users\\Atomic\\Documents\\Progetto\\Client\\ApiService\\ApiService.cs",
               "RelativeToolTip": "Client\\ApiService\\ApiService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAuMzMzMzcv1UAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T15:41:23.396Z",
               "EditorCaption": ""
