@@ -4,7 +4,7 @@ namespace Client
 {
     public partial class FormProfilo : Form
     {
-        // FormLogin login = new();
+        FormTransazione wallet = new();
         public FormProfilo()
         {
             InitializeComponent();
@@ -17,20 +17,16 @@ namespace Client
             lblTesto1.Text = Sessione.cognome;
 
         }
-        private async void lblTesto_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private async void lblTesto1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
         private void FormProfilo_FormClosed(object sender, FormClosedEventArgs e)
         {
             //  login.Show();
+        }
+
+        private async void btnWallet_Click(object sender, EventArgs e)
+        {
+            try { await wallet.ShowDialogAsync(); }
+
+            catch (Exception ex) { MessageBox.Show("Errore di connessione: " + ex.Message); }
         }
     }
 }

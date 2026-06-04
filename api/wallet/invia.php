@@ -8,9 +8,9 @@ requireMethod('POST');
 
 $body        = getBody();
 $idMittente  = (int)$tokenPayload->idUtente;
-$idDest      = isset($body['Destinatario_IdUtente']) ? (int)$body['Destinatario_IdUtente'] : 0;
-$importo     = isset($body['Importo']) ? (float)$body['Importo'] : 0;
-$descrizione = trim($body['Descrizione'] ?? '');
+$idDest      = isset($body['idDestinatario']) ? (int)$body['idDestinatario'] : 0;
+$importo     = isset($body['importo']) ? (float)$body['importo'] : 0;
+$descrizione = trim($body['descrizione'] ?? '');
 
 if ($idDest <= 0) {
     jsonResponse(false, 'Destinatario non valido', [], 400);
@@ -60,7 +60,7 @@ try {
 
     // Registra la transazione
     $pdo->prepare("
-        INSERT INTO Transazione (Mittente_IdUtente, Destinatario_IdUtente, Importo, Descrizione, DataOra)
+        INSERT INTO Transazione (IdUtente, idDestinatario, importo, descrizione, DataOra)
         VALUES (?, ?, ?, ?, NOW())
     ")->execute([$idMittente, $idDest, $importo, $descrizione ?: null]);
 

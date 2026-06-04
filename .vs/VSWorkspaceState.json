@@ -2,10 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Client",
-    "\\Client\\ApiService",
-    "\\Client\\bin",
+    "\\Client\\ApiService\\Models",
     "\\Client\\bin\\Debug",
     "\\Client\\bin\\Release"
   ],
+  "SelectedNode": "\\Client\\FormLogin.cs",
   "PreviewInSolutionExplorer": false
 }

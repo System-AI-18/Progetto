@@ -30,6 +30,7 @@ namespace Client.ApiService
                 Sessione.token = user.Token;
                 Sessione.nome = user.Utente.Nome;
                 Sessione.cognome = user.Utente.Cognome;
+                Sessione.idUtente = user.Utente.IdUtente;
 
 
                 sharedClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", user.Token);
@@ -66,16 +67,16 @@ namespace Client.ApiService
             ResponseUtente? utenteSaldo = JsonSerializer.Deserialize<ResponseUtente>(jsonResponse);
 
             if (utenteSaldo is null || !utenteSaldo.Success) { return null; }
-
-            return utenteSaldo.Utente.SaldoWallet;
+            else
+                return utenteSaldo.Utente.SaldoWallet;
 
 
         }
 
-        public static async Task InviaSaldoAsync(Wallet? saldo)
+        public static async Task InviaSaldoAsync(Transazioni transazione)
         {
 
-            using StringContent stringContent = new(JsonSerializer.Serialize(saldo), Encoding.UTF8, "application/json");
+            using StringContent stringContent = new(JsonSerializer.Serialize(transazione), Encoding.UTF8, "application/json");
 
             using HttpResponseMessage response = await sharedClient.PostAsync("wallet/invia.php", stringContent);
 

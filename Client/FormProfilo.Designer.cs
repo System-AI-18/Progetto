@@ -33,6 +33,7 @@
             lblTesto = new Label();
             lblCognome = new Label();
             lblTesto1 = new Label();
+            btnWallet = new Button();
             SuspendLayout();
             // 
             // label1
@@ -59,7 +60,6 @@
             lblTesto.Size = new Size(35, 15);
             lblTesto.TabIndex = 2;
             lblTesto.Text = "Testo";
-            lblTesto.Click += lblTesto_Click;
             // 
             // lblCognome
             // 
@@ -78,13 +78,23 @@
             lblTesto1.Size = new Size(35, 15);
             lblTesto1.TabIndex = 4;
             lblTesto1.Text = "Testo";
-            lblTesto1.Click += lblTesto1_Click;
+            // 
+            // btnWallet
+            // 
+            btnWallet.Location = new Point(400, 135);
+            btnWallet.Name = "btnWallet";
+            btnWallet.Size = new Size(75, 23);
+            btnWallet.TabIndex = 5;
+            btnWallet.Text = "Wallet";
+            btnWallet.UseVisualStyleBackColor = true;
+            btnWallet.Click += btnWallet_Click;
             // 
             // FormProfilo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnWallet);
             Controls.Add(lblTesto1);
             Controls.Add(lblCognome);
             Controls.Add(lblTesto);
@@ -105,5 +115,6 @@
         private Label lblTesto;
         private Label lblCognome;
         private Label lblTesto1;
+        private Button btnWallet;
     }
 }

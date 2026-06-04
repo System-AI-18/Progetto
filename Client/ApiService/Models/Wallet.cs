@@ -2,10 +2,8 @@
 {
     public record class Wallet
     (
-        int Destinatario_IdUtente,
-        decimal Importo,
-        string? Descrizione = null,
-        bool Success = false,
-        string? Message = null
+        int? id_Utente,
+        int? saldo
+
     );
 }
