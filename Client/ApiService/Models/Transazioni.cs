@@ -2,9 +2,9 @@
 {
     public record class Transazioni
     (
-        int idMittente,
-        int idDestinatario,
-        int importo,
+        int? idMittente,
+        int? idDestinatario,
+        int? importo,
         string? descrizione
 
         );

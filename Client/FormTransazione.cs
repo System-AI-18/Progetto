@@ -33,10 +33,7 @@ namespace Client
             }
 
 
-            Transazioni datiTransazione = new();
-            datiTransazione.idDestinatario = idDestinatario;
-            datiTransazione.importo = importo;
-            datiTransazione.descrizione = tBoxDescrizione.Text;
+            Transazioni datiTransazione = new(Sessione.idUtente, idDestinatario, importo, tBoxDescrizione.Text);
 
 
             try
