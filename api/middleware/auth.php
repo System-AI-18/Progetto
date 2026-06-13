@@ -6,7 +6,7 @@ require_once __DIR__ . '/../config/database.php';
 use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
 
-define('JWT_SECRET', 'chiavemoltosegretaelunghissima');
+define('JWT_SECRET', 'cambia_questa_chiave_con_una_stringa_segreta_lunga');
 define('JWT_EXPIRY', 3600);
 
 function generateToken(int $idUtente, string $ruolo): string {
